@@ -1,8 +1,115 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    .Button:hover {
+        color: orangered !important;
+    }
+</style>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<style>
+    .troll1:after {
+        content: "Hover across me!";    
+    }
+</style>
+<style>
+    .troll1:hover:after {
+        content: "Never gonna give you up,";
+        color: red !important;
+    }
+</style>
+
+<style>
+    .troll2:after {
+        content: "Hover across me!";
+    }
+</style>
+<style>
+    .troll2:hover:after {
+        content: "Never gonna let you down,";
+        color: red !important;
+    }
+</style>
+
+<style>
+    .troll3:after {
+        content: "Hover across me!";
+    }
+</style>
+<style>
+    .troll3:hover:after {
+        content: "Never gonna run around and dessert you.";
+        color: red !important;
+    }
+</style>
+
+
+<head>
+<h1>
+    Ohayo! Welcome to my blog!
+</h1>
+</head>
+
+
+<body>
+<br />
+<p style="font-size:larger">
+    I will be sharing my notes and other information in this blog.
+</p>
+<a asp-controller="Home" asp-action="Handouts" style="font-family:Verdana;font-size:large;color:black;text-decoration:none" >Handouts</a>
+<p>
+    These are some of my handouts which I've used to train my juniors. You may click the title to obtain more resources. Some of them include:
+</p>
+<ul>
+    <li>To be updated</li>
+    <li>To be updated</li>
+    <li>To be updated</li>
+    <li>To be updated</li>
+</ul>
+<br />
+<hr />
+<br />
+<a asp-controller="Home" asp-action="Notes" style="font-family:Verdana;font-size:large;color:black;text-decoration:none">Notes</a>
+<p>
+    These are some of my notes when I was studying in high school, may come in handy in preparing exams.
+</p>
+<ul>
+    <li>To be updated</li>
+    <li>To be updated</li>
+    <li>To be updated</li>
+    <li>To be updated</li>
+</ul>
+<br />
+
+<hr />
+<p style="font-family:'Comic Sans MS';font-size:40px">Canvas</p>
+
+
+
+
+    
+<h2 style="font-family:Vtext-decorationa">
+    Font Changing
+</h2>
+<h2 style="font-size:20pt; font-family:'Times New Roman', Times, serif">
+    Text size changing
+</h2>
+
+<p> Current tasks:</p>
+<ul>
+    <li>Learn HTML code</li>
+    <li>Create a blog</li>
+    <li style="list-style:thai">Publish the website</li>
+    <li style="list-style:thai; color:goldenrod">Have Fun!</li>
+</ul>
+
+<p class="Button">Hover across me!</p>
+<br />
+<ol>
+    <li class="troll1"></li>
+    <li class="troll2"></li>
+    <li class="troll3"></li>
+</ol>
+
+</body>
+

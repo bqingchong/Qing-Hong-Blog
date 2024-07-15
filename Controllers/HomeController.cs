@@ -18,6 +18,20 @@ namespace Qing_Hong_Blog.Controllers
             return View();
         }
 
+        public IActionResult Handouts()
+        {
+            return View();
+        }
+
+        public IActionResult Notes()
+        {
+            return View();
+        }
+
+        public IActionResult Articles()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
