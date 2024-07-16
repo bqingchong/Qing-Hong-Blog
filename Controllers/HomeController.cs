@@ -36,6 +36,10 @@ namespace Qing_Hong_Blog.Controllers
         {
             return View();
         }
+        public IActionResult W1D1()
+        {
+            return View("Views/Physics_Week_Challenge/W1D1.cshtml");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
