@@ -7,4 +7,19 @@
     <RootNamespace>Qing_Hong_Blog</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Articles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\PWC\W1D11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Home\Projects.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
