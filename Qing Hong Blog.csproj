@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Articles\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\css\PWC\W1D11.png" />
   </ItemGroup>
 
